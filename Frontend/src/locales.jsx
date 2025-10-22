@@ -1,0 +1,113 @@
+const translations = {
+  en: {
+    welcome: "Welcome to",
+    shopNow: "Shop Now",
+    exploreCollections: "Explore Collections",
+    headline: "Refine Your Look with",
+    luxuryBags: "Premium wool cloths",
+    heroDescription:
+      "Discover expertly tailored cloths crafted from premium wool and fine fabrics. Combining timeless style with modern precision, our cloths are made to fit perfectly for every occasion.",
+    featured: "Featured Collections",
+    readMore: "Read More",
+    seeBags: "See Suits",
+    close: "Close",
+    explore: "Explore Our Products",
+    categories: "Categories",
+    allCategories: "All Categories",
+    ourStory: "Our Story",
+    storyDescription:
+      "Our craft is rooted in a deep respect for traditional tailoring techniques and the qualities of the finest wool. Each cloth is carefully woven from premium fibers, offering a perfect balance of comfort, durability, and elegance. From lightweight summer worsteds to warm, soft flannels, our wool fabrics are chosen to suit any season and occasion, reflecting the heritage of classic menswear with a refined modern touch.",
+    exploreBags: "Explore Our Cloths",
+    ourMissionValues: "Our Mission & Values",
+    missionDescription:
+      "Our mission is to preserve the art of tailoring while embracing fabric innovations, offering suit cloths that combine elegance, comfort, and craftsmanship. We believe in:",
+    sustainability: "Sustainability",
+    sustainabilityDescription:
+      "We source eco-friendly and responsibly produced wool to reduce environmental impact while maintaining exceptional quality.",
+    handmadeCraftsmanship: "Handmade Craftsmanship",
+    handmadeCraftsmanshipDescription:
+      "Each cloth is meticulously hand-finished by skilled tailors, ensuring unique attention to detail and a perfect fit.",
+    premiumQuality: "Premium Quality",
+    premiumQualityDescription:
+      "We use the finest wool and fabrics, ensuring every suit cloth offers both durability and sophistication.",
+    passionForCulture: "Passion for Tailoring Heritage",
+    passionForCultureDescription:
+      "We honor the traditions of tailoring while incorporating modern cuts and designs to suit today’s style.",
+    recentProductsTitle: "Recent Products",
+    recentProductsDescription:
+      "Browse our latest tailored wool cloths and fabric selections, crafted for elegance and comfort.",
+    noProductsMessage: "No products available",
+    moreProductsButton: "More Products",
+    footerBrandInfoTitle: "Refined Tailoring",
+    footerBrandInfoDescription:
+      "We offer wool fabrics that embody the art of craftsmanship, sourced for their natural softness, durability, and refined texture. Each piece reflects timeless weaving traditions, ensuring garments that not only look distinguished but are made to last for years.",
+    footerQuickLinksTitle: "Quick Links",
+    footerHomeLink: "Home",
+    footerAboutUsLink: "About Us",
+    footerProductsLink: "Products",
+    footerFollowUsTitle: "Follow Us",
+    tiktok: "TikTok",
+    instagram: "Instagram",
+    footerContactUsTitle: "Contact Us",
+    footerAddress: "Merkato, Addis Ababa, Ethiopia",
+    home: "Home",
+    products: "Products",
+    aboutUs: "About Us",
+    contacts: "Contacts",
+  },
+  am: {
+    welcome: "እንኳን ደህና መጡ ወደ",
+    shopNow: "ዛሬ ይግዙ",
+    exploreCollections: "ስብስቦችን ያስሱ",
+    headline: "የእርስዎን ዘይቤ ያሳድጉ በ",
+    luxuryBags: "ጥራት ያላቸው የሱፍ ጨርቆች",
+    heroDescription:
+      "ለማንኛውም ጊዜ የሚሆኑ ከፍተኛ ጥራት ያላቸው የሱፍ እና ሌሎች ጨርቆችን ባህላዊ ዘይቤን ከዘመናዊነት ጋር በማዋሃድ እናቀርባለን።",
+    featured: "ተወዳጅ ስብስቦች",
+    readMore: "ተጨማሪ እይ",
+    seeBags: "ይመልከቱ",
+    close: "ዝጋ",
+    explore: "የእኛን ምርቶች ይቃኙ",
+    categories: "ምድቦች",
+    allCategories: "ሁሉንም ምድቦች",
+    ourStory: "ስለ እኛ",
+    storyDescription:
+      "የሱፍ ጨርቆቻችን ለባህላዊ የልብስ ስፌት ቴክኒኮች እና ለምርጥ የበግ ፀጉር ባህሪያት ጥልቅ አክብሮት ላይ የተመሰረተ ነው። እያንዳንዱ ልብስ በጥንቃቄ የተሸመነ ነው፣ ይህም ፍጹም ጥራት እና ረጅም ግዜ የመቆየት እና የውበት ሚዛን ሰጥቶታል። ቀላል ክብደት ካለው የበጋ ወቅት እስከ ሞቅ ያለ ለስላሳ የሱፍ ጨርቆች ያገኛሉ። የኛ የሱፍ ጨርቆች ለማንኛውም ወቅት ተስማሚ ናቸው።",
+    exploreBags: "ይመልከቱ",
+    ourMissionValues: "የእኛ ተልዕኮ እና እሴቶቻችን",
+    missionDescription:
+      "ለዘመናዊ እና ቀልብን ለሚገዙ ሱፎች የሚሆኑ ጥራት ያላቸው የሱፍ ጨርቆችን ማቅርብ የእኛ ተልዕኮ ነው።",
+    sustainability: "የአካባቢ ጥበቃ",
+    sustainabilityDescription: "ለአካባቢ ተስማሚ የሆኑ የሱፍ ጨርቆችን እናቀርባለን።",
+    handmadeCraftsmanship: "በእጅ የተሠሩ ሥራዎች",
+    handmadeCraftsmanshipDescription: "ሁሉም የሱፍ ጨርቆች በባለሙያ በጥንቃቄ የተዘጋጁ ናቸው።",
+    premiumQuality: "የላቀ ጥራት",
+    premiumQualityDescription:
+      "በጣም ጥራቱን የጠበቅ ጨርቆችን እናቀርባለን ፣ ይህም እያንዳንዱ የሱፍ ልብስ ዘላቂነት እና ውበት ይሰጠዋል።",
+    passionForCulture: "ባህላዊ የሱፍ ጨርቅ",
+    passionForCultureDescription:
+      "ባህላዊነቱን የጠበቀ ፣ ከባህል ጋር የሚጣጣም ፣ ዘመናዊ ቅጥ ያላቸው ምርቶችን እናቀርባለን",
+    recentProductsTitle: "ቅርብ ምርቶች",
+    recentProductsDescription: "ከባህላዊ እና ዘመናዊ አሠራር የተዋሀዱ አዳዲስ ጨርቆችን ይዩ።",
+    noProductsMessage: "ምንም ምርቶች አልተገኙም",
+    moreProductsButton: "ተጨማሪ ምርቶች",
+    footerBrandInfoTitle: "ጥራታማ ስራ",
+    footerBrandInfoDescription:
+      "ባህላዊ ፣ ዘመናዊ ፣ ለረጅም ጊዜ የሚቆዩ እና ከፍተኛ ጥራት ያላቸውን የሱፍ ጨርቆችን እናቀርባለን።",
+    footerQuickLinksTitle: "ፈጣን ገጽታዎች",
+    footerHomeLink: "ሆም",
+    footerAboutUsLink: "ስለ እኛ",
+    footerProductsLink: "ምርቶች",
+    footerFollowUsTitle: "እኛን ተከተሉን",
+    tiktok: "ቲክ ቶክ",
+    instagram: "ኢንስታግራም",
+    footerContactUsTitle: "እኛን ለማግኘት",
+    footerAddress: "መርካቶ, አዲስ አበባ, ኢትዮጵያ",
+    home: "ሆም",
+    products: "ምርቶች",
+    aboutUs: "ስለ እኛ",
+    contacts: "አድራሻ",
+  },
+};
+
+export default translations;
